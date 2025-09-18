@@ -61,10 +61,7 @@ struct ContentView: View {
             return
         }
         
-        withAnimation{
-            usedWords.insert(answer, at:0)
-        }
-        
+    
         usedWords.insert(answer, at:0)
         newWord = ""
     }
